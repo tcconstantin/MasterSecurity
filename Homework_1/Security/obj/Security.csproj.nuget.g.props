@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">C:\Users\Constantin Catalin\Documents\Visual Studio 2017\Projects\Security\Security\obj\project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Constantin Catalin\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.3.1</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(Language)' == 'C#' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Compile Include="$(NuGetPackageRoot)dryioc\2.12.2\contentFiles\cs\any\Container.cs" Condition="Exists('$(NuGetPackageRoot)dryioc\2.12.2\contentFiles\cs\any\Container.cs')">
+      <NuGetPackageId>DryIoc</NuGetPackageId>
+      <NuGetPackageVersion>2.12.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>Container.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)dryioc\2.12.2\contentFiles\cs\any\FastExpressionCompiler.cs" Condition="Exists('$(NuGetPackageRoot)dryioc\2.12.2\contentFiles\cs\any\FastExpressionCompiler.cs')">
+      <NuGetPackageId>DryIoc</NuGetPackageId>
+      <NuGetPackageVersion>2.12.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>FastExpressionCompiler.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)dryioc\2.12.2\contentFiles\cs\any\ImTools.cs" Condition="Exists('$(NuGetPackageRoot)dryioc\2.12.2\contentFiles\cs\any\ImTools.cs')">
+      <NuGetPackageId>DryIoc</NuGetPackageId>
+      <NuGetPackageVersion>2.12.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>ImTools.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)dryioc\2.12.2\contentFiles\cs\any\Ported-net.cs" Condition="Exists('$(NuGetPackageRoot)dryioc\2.12.2\contentFiles\cs\any\Ported-net.cs')">
+      <NuGetPackageId>DryIoc</NuGetPackageId>
+      <NuGetPackageVersion>2.12.2</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>Ported-net.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.diasymreader.native\1.4.1\build\Microsoft.DiaSymReader.Native.props" Condition="Exists('$(NuGetPackageRoot)microsoft.diasymreader.native\1.4.1\build\Microsoft.DiaSymReader.Native.props')" />
+  </ImportGroup>
+</Project>

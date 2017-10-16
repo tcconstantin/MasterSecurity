@@ -1,0 +1,3 @@
+﻿fc /B test.txt hillcipher_decrypt.txt
+
+

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DryIoc\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DryIoc" Version="2.12.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="C:\Users\Constantin Catalin\.nuget\packages\dryioc\2.12.2\contentFiles\cs\any\Container.cs" Link="DryIoc\Container.cs" />
+    <Compile Update="C:\Users\Constantin Catalin\.nuget\packages\dryioc\2.12.2\contentFiles\cs\any\FastExpressionCompiler.cs" Link="DryIoc\FastExpressionCompiler.cs" />
+    <Compile Update="C:\Users\Constantin Catalin\.nuget\packages\dryioc\2.12.2\contentFiles\cs\any\ImTools.cs" Link="DryIoc\ImTools.cs" />
+    <Compile Update="C:\Users\Constantin Catalin\.nuget\packages\dryioc\2.12.2\contentFiles\cs\any\Ported-net.cs" Link="DryIoc\Ported-net.cs" />
+  </ItemGroup>
+
+</Project>
